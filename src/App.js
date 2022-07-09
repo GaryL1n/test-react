@@ -1,9 +1,7 @@
-// import logo from './logo.svg';
-import './App.css';
-import Mypage from './page/Mypage';
+import React from "react";
 
-function App() {
-    return <Mypage />;
-}
+const App = () => {
+   return <div>App</div>;
+};
 
 export default App;
