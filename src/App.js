@@ -1,7 +1,8 @@
-import React from "react";
+import './App.css';
+import Context from './Context';
 
-const App = () => {
-   return <div>App</div>;
-};
+function App() {
+    return <Context />;
+}
 
 export default App;
