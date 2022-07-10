@@ -1,8 +1,8 @@
 import './App.css';
-import Context from './Context';
+import UserCard from "./UserCard";
 
 function App() {
-    return <Context />;
+    return <UserCard/>;
 }
 
 export default App;

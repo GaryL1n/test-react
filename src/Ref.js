@@ -11,7 +11,6 @@ const Ref = () => {
 
     // prevName.current會是上一次name的值
     useEffect(() => {
-        console.log(123);
         prevName.current = name;
     }, [name]);
 
